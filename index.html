@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Book-List App | Vanila js project</title>
+    <!--font awesome link-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"crossorigin="anonymous"/>
+    <!--bootstrap link-->
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <!--Main css link-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!--Main structure start-->
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-2"></div>
+            <div class="col-xl-8">
+
+                <h1 class=" text-center main-heading"><i class="fas fa-book-open"></i> Rasel Ahmed<span class="text-warning"> Book-</span>List</h1>
+
+                    <form id="book-form">
+                        <div class="form-group">
+                            <label for="title">Book Name</label>
+                            <input type="text" id="bookName" class="form-control" />
+                        </div>
+
+                        <div class="form-group">
+                            <label for="author">Author Name</label>
+                            <input type="text" id="authorName" class="form-control" />
+                        </div>
+
+                        <div class="form-group">
+                            <label for="year">Release Date</label>
+                            <input type="date" id="releaseDate" class="form-control" />
+                        </div>
+
+                        <div class="d-grid gap-2">
+                        <input type="submit" value="Add Book" class="btn btn-primary"/>
+                        </div>
+                        
+                    </form>
+
+                    <table class="table mt-5 text-center">
+                        <thead>
+                            <tr>
+                                <th class="text1">Book Name</th>
+                                <th class="text2">Author Name</th>
+                                <th class="text3">Release Date</th>
+                            </tr>
+                        </thead>
+                        <tbody id="bookList"></tbody>
+                    </table>
+        
+            </div>
+            <div class="col-xl-2"></div>
+        </div>
+    </div>
+
+    <script src="./bootstrap.bundle.js"></script>
+    <script src="main.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,65 @@
+body {
+    background: rgb(239, 237, 255);
+}
+
+i {
+    color: rgb(75, 25, 255);
+}
+
+input {
+    margin-bottom: 13px;
+}
+
+.btn {
+    margin-top: 10px;
+}
+
+.main-heading {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.text-warning {
+    color: rgb(75, 25, 255) !important;
+}
+
+.btn {
+    background: rgb(75, 25, 255);
+    color: #fff;
+    transition: .35s ease;
+    font-size: 20px;
+}
+.btn:hover {
+    background: rgb(250, 10, 110);
+    color: rgb(255, 251, 251);
+}
+
+label {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.table thead th {
+    
+    border: 2px solid rgb(250, 10, 110);
+}
+
+.table td, .table th {
+    border: 2px solid rgb(9, 34, 255);
+    
+}
+
+.text1, .text2, .text3 {
+    font-size: 25px;
+}
+
+@media (max-width: 560px) {
+    .text1, .text2, .text3 {
+        font-size: 18px;
+    }
+
+    label {
+        font-size: 18px;
+        font-weight: 400;
+    }
+}
